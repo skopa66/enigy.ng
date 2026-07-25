@@ -256,3 +256,36 @@ color:#00b7ff;
 color:#ddd;
 line-height:1.7;
 }
+<section id="flavours">
+
+<h2 class="section-heading">OUR FLAVOURS</h2>
+
+<div class="flavour-grid">
+
+<div class="flavour-card">
+<img src="assets/images/original.png" alt="Original">
+<h3>Original</h3>
+<p>Classic performance energy with a smooth finish.</p>
+</div>
+
+<div class="flavour-card">
+<img src="assets/images/berry.png" alt="Berry Focus">
+<h3>Berry Focus</h3>
+<p>Sweet berry flavour designed to keep your mind sharp.</p>
+</div>
+
+<div class="flavour-card">
+<img src="assets/images/citrus.png" alt="Citrus Charge">
+<h3>Citrus Charge</h3>
+<p>Fresh citrus taste with bold energy.</p>
+</div>
+
+<div class="flavour-card">
+<img src="assets/images/tropical.png" alt="Tropical Rush">
+<h3>Tropical Rush</h3>
+<p>Exotic tropical flavour built for adventure.</p>
+</div>
+
+</div>
+
+</section>
