@@ -374,3 +374,31 @@ Our vision is to build a global brand that empowers athletes, creators, students
 </div>
 
 </section>
+/* VISION */
+
+#vision{
+padding:120px 8%;
+background:linear-gradient(180deg,#05070d,#0b101b);
+text-align:center;
+}
+
+.vision-container{
+max-width:900px;
+margin:auto;
+}
+
+.vision-container h2{
+font-size:52px;
+margin:20px 0;
+}
+
+.vision-container p{
+font-size:20px;
+line-height:1.9;
+color:#d6d6d6;
+margin-bottom:25px;
+}
+
+.vision-btn{
+margin-top:25px;
+}
