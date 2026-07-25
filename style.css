@@ -402,3 +402,43 @@ margin-bottom:25px;
 .vision-btn{
 margin-top:25px;
 }
+/* FOOTER */
+
+footer{
+padding:80px 8%;
+text-align:center;
+background:#03050a;
+}
+
+.footer-logo{
+font-size:48px;
+font-weight:800;
+margin-bottom:15px;
+}
+
+.footer-logo span{
+color:#00b7ff;
+}
+
+.footer-links{
+margin:35px 0;
+display:flex;
+justify-content:center;
+gap:35px;
+flex-wrap:wrap;
+}
+
+.footer-links a{
+color:white;
+text-decoration:none;
+transition:.3s;
+}
+
+.footer-links a:hover{
+color:#00b7ff;
+}
+
+.copyright{
+opacity:.6;
+margin-top:30px;
+}
