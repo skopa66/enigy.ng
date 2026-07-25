@@ -1,1 +1,213 @@
 
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+scroll-behavior:smooth;
+}
+
+body{
+background:#05070d;
+color:#fff;
+overflow-x:hidden;
+}
+
+/* NAVIGATION */
+
+nav{
+position:fixed;
+top:0;
+left:0;
+width:100%;
+padding:20px 8%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+background:rgba(0,0,0,.45);
+backdrop-filter:blur(15px);
+z-index:999;
+}
+
+.logo{
+font-size:38px;
+font-weight:800;
+letter-spacing:2px;
+}
+
+.logo span{
+color:#00b7ff;
+text-shadow:0 0 20px #00b7ff;
+}
+
+nav ul{
+display:flex;
+gap:40px;
+list-style:none;
+}
+
+nav a{
+text-decoration:none;
+color:white;
+transition:.3s;
+}
+
+nav a:hover{
+color:#00b7ff;
+}
+
+/* HERO */
+
+.hero{
+
+min-height:100vh;
+
+display:flex;
+
+justify-content:space-between;
+
+align-items:center;
+
+padding:120px 8%;
+
+background:
+radial-gradient(circle at top right,#00b7ff33,transparent 35%),
+linear-gradient(180deg,#05070d,#090d17);
+
+}
+
+.left{
+
+flex:1;
+
+}
+
+.tag{
+
+letter-spacing:5px;
+
+color:#00b7ff;
+
+margin-bottom:20px;
+
+font-weight:600;
+
+}
+
+.left h1{
+
+font-size:80px;
+
+line-height:1;
+
+margin-bottom:30px;
+
+}
+
+.desc{
+
+max-width:550px;
+
+font-size:20px;
+
+color:#cfcfcf;
+
+margin-bottom:40px;
+
+line-height:1.7;
+
+}
+
+button{
+
+padding:18px 45px;
+
+border:none;
+
+border-radius:40px;
+
+background:#00b7ff;
+
+font-size:17px;
+
+font-weight:700;
+
+cursor:pointer;
+
+transition:.35s;
+
+}
+
+button:hover{
+
+transform:translateY(-5px);
+
+box-shadow:0 0 30px #00b7ff;
+
+}
+
+.right{
+
+flex:1;
+
+display:flex;
+
+justify-content:center;
+
+}
+
+.right img{
+
+width:430px;
+
+max-width:100%;
+
+animation:float 4s ease-in-out infinite;
+
+filter:drop-shadow(0 0 40px #00b7ff);
+
+}
+
+@keyframes float{
+
+50%{
+
+transform:translateY(-18px);
+
+}
+
+}
+
+/* MOBILE */
+
+@media(max-width:900px){
+
+.hero{
+
+flex-direction:column;
+
+text-align:center;
+
+padding-top:170px;
+
+}
+
+.left h1{
+
+font-size:52px;
+
+}
+
+nav ul{
+
+display:none;
+
+}
+
+.right img{
+
+width:270px;
+
+}
+
+}
