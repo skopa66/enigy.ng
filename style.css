@@ -314,3 +314,40 @@ More than an energy drink, ENIGY is a reminder that success isn't built overnigh
 </div>
 
 </section>
+/* PERFORMANCE FORMULA */
+
+#formula{
+padding:120px 8%;
+background:#0b101b;
+}
+
+.formula-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:30px;
+margin-top:60px;
+}
+
+.formula-card{
+background:rgba(255,255,255,.05);
+padding:35px;
+border-radius:20px;
+border:1px solid rgba(0,183,255,.15);
+transition:.3s;
+}
+
+.formula-card:hover{
+transform:translateY(-10px);
+box-shadow:0 0 25px rgba(0,183,255,.4);
+}
+
+.formula-card h3{
+margin-bottom:15px;
+color:#00b7ff;
+font-size:24px;
+}
+
+.formula-card p{
+line-height:1.8;
+color:#d6d6d6;
+}
